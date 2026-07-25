@@ -1,0 +1,78 @@
+name: Bug report
+description: Something in one of our apps or libraries is broken
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Please do not include security vulnerabilities here — see SECURITY.md for how to report those privately.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: I tapped Request a quote, filled in the form, and the Submit button stayed greyed out.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: App or package version
+      placeholder: 1.0.1 (build 12)
+    validations:
+      required: false
+  - type: input
+    id: device
+    attributes:
+      label: Device and OS version
+      placeholder: iPhone 15 Pro, iOS 18.5
+    validations:
+      required: false
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Most of the time
+        - Occasionally
+        - Happened once
+    validations:
+      required: false
+  - type: dropdown
+    id: network
+    attributes:
+      label: Network conditions
+      options:
+        - Wi-Fi
+        - Cellular
+        - Offline
+        - Not sure
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots, recordings, or logs
+      description: Drag files in here. Please redact anything personal or client-confidential first.
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this is not a duplicate
+          required: true
+        - label: This report contains no customer data, client-confidential information, or credentials
+          required: true
