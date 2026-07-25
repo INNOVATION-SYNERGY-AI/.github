@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/INNOVATION-SYNERGY-AI/.github/blob/main/SECURITY.md
+    about: Do not open a public issue. Report it privately using our security policy.
+  - name: Help with one of our apps
+    url: https://github.com/INNOVATION-SYNERGY-AI/.github/blob/main/SUPPORT.md
+    about: End-user support, client requests, and how to reach a human.
+  - name: Work with us
+    url: https://innovationsynergyai.com
+    about: New project enquiries and engagement details.
