@@ -1,0 +1,51 @@
+name: Feature request
+description: Suggest a capability or an improvement
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us about the problem before the solution. The best requests describe a situation that is currently painful.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Who runs into this, how often, and what do they do today as a workaround?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like to happen?
+      description: Describe the behavior you want. Sketches or references to apps that do it well are welcome.
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Which platform does this affect?
+      multiple: true
+      options:
+        - iPhone
+        - iPad
+        - Mac
+        - Backend or integration
+        - Not platform specific
+    validations:
+      required: false
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What else have you considered?
+      description: Other approaches, and why they are worse.
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this is not already requested
+          required: true
+        - label: This request contains no customer data or client-confidential information
+          required: true
