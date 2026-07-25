@@ -9,16 +9,20 @@
 - **AI agents and automation** — assistants, document and quoting pipelines, and workflow automation wired into the systems a company already uses.
 - **Integrations** — CRM, scheduling, payments, and back-office connections, so the app becomes part of the operation instead of another silo.
 
+## How we work
+
+**Forward deployed.** We embed with the client, learn the operation from the inside, and build against how the business actually runs rather than against a spec handed over at arm's length. That means shorter feedback loops, fewer wrong assumptions, and software that gets used.
+
+Engagements run from a single app to a full product line. We own design, development, App Store submission and review, and ongoing releases, so clients end up with a shipped product rather than a prototype.
+
 ## Shipped work
 
 **East Coast Air** — iOS app for a South Shore, Massachusetts HVAC contractor. Quote requests, a Mass Save rebate qualifier, a maintenance membership signup, a browsable service catalog, and one-tap contact.
 [View on the App Store](https://apps.apple.com/us/app/east-coast-air/id6770141635)
 
-## How we work
-
-Engagements run from a single app to a full product line. We handle design, development, App Store submission and review, and ongoing releases, so a client ends up with a shipped product rather than a prototype.
-
 ## Work with us
+
+Michael Bowen — Principal Forward Deployed Engineer
 
 - Website: https://innovationsynergyai.com
 - Email: michael@innovationsynergyai.com
