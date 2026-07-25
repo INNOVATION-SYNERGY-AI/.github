@@ -28,7 +28,7 @@ iOS app for a South Shore, Massachusetts HVAC contractor serving Hingham, Norwel
 - Business hours, full service-area list, and one-tap calling
 - Collects no user data
 
-[View on the App Store](https://apps.apple.com/us/app/east-coast-air/id6770141635)
+[View on the App Store](https://apps.apple.com/us/app/east-coast-air/id6770141635) · [Read the case study](https://github.com/INNOVATION-SYNERGY-AI/east-coast-air-case-study)
 
 ## Stack
 
@@ -36,7 +36,12 @@ Swift, SwiftUI, and UIKit where it earns its place. TestFlight and App Store Con
 
 ## Repositories
 
-Most of our work lives in private repositories under client engagements. Public repositories are added as projects mature, so check the Repositories tab for current work.
+Most of our work lives in private repositories under client engagements. What we can publish, we do:
+
+- **[east-coast-air-case-study](https://github.com/INNOVATION-SYNERGY-AI/east-coast-air-case-study)** — how the East Coast Air app was scoped, built, and shipped
+- **[.github](https://github.com/INNOVATION-SYNERGY-AI/.github)** — shared contribution, security, and support policies
+
+More public repositories are added as projects mature. Check the Repositories tab for current work.
 
 ## Work with us
 
